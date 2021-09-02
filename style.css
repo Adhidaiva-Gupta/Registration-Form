@@ -1,0 +1,68 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5F9EA0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgb(195,195,34);
+    background: linear-gradient(0deg, rgba(195,195,34,1) 24%, rgba(218,87,224,1) 49%, rgba(45,253,201,1) 71%);
+    padding: 15px;
+    border-radius:10px;
+    width:50%;
+    margin: 15px auto;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin: 5px 0 20px 0;
+    display:inline-block;
+    background: white;
+}
+
+input:focus{
+    background-color: #A9A9A9;
+    outline:none;
+}
+
+hr{
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+#Registerbtn{
+    background-color: #00CED1;
+    font-size: 25px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#Registerbtn:hover{
+    opacity: 1;
+}
+
+a{
+    color: #E9967A;
+}
+
+#wpwd{
+font-size: 12px;
+color: red;
+display: none;
+margin-bottom: 20px;
+}
+
+#success{
+    font-size: 25px;
+    color: green;
+    display: none;
+}
